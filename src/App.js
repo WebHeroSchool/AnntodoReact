@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import {count, length} from './number';
 
-const count = 23;
+const wrap = 23;
 let cats = 15;
 const dogs = 10;
 const name = true;
@@ -22,7 +23,7 @@ function App() {
           Hello World!
         </p>
         <p>
-          {count}
+          {wrap}
         </p>
         <p>
           {`number of animals is  ${cats + dogs}`}
@@ -36,6 +37,9 @@ function App() {
         	{null}
 	        {false}
 	        {true}
+        </p>
+        <p>
+        	{`count * length =  ${count * length}`}
         </p>
         <a
           className="App-link"
