@@ -5,16 +5,10 @@
 }
 .case {
 	max-width: 250px;
-	/*text-align: left;*/
-	/*background: #fc0;*/
 }
 .item {
 	color: #333;
 	width: 100%;
-	/*background: red;*/
-	/*min-width: 100px;*/
-	/*max-width: 250px;*/
-	/*text-align: left;*/
 }
 .done {
 	color: #c4c4c4;
