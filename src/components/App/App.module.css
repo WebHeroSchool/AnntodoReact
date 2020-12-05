@@ -1,7 +1,5 @@
 .wrap {
+	font-family: 'Balsamiq Sans', cursive;
 	margin: auto;
-	width: 300px;
-}
-.title {
-	font-family: Comic Sans MS;
+	width: 400px;
 }
