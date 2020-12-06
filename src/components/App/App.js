@@ -4,18 +4,19 @@ import InputItem from '../InputItem/InputItem';
 import Footer from '../Footer/Footer';
 import styles from './App.module.css';
 
-const todoItem = 'Создать новое приложение';
-
 const App = () => {
 	const items = [
 		{
-			value: 'Создать новое приложение'
+			value: 'Создать новое приложение',
+			isDone: true
 		},
 		{
-			value: 'прописать props-ы'
+			value: 'прописать props-ы',
+			isDone: false
 		},
 		{
-			value: 'сделать все дела'
+			value: 'сделать все дела',
+			isDone: true
 		}
 	];
 
