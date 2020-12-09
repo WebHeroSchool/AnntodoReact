@@ -5,11 +5,14 @@ import DeleteIcon from '@material-ui/icons/Delete';
 import classnames from 'classnames';
 import styles from './Item.module.css';
 
-const Item = ({ value, isDone }) => (
+const Item = ({ value, isDone, onClickDone, id }) => (
 <div className={styles.wrap}>
 
 	<div>
-		<Checkbox inputProps={{ 'aria-label': 'uncontrolled-checkbox' }} />
+		<Checkbox 
+			inputProps={{ 'aria-label': 'uncontrolled-checkbox' }}
+			onClick={() => onClickDone(id)}
+		/>
     </div>
     <div className={styles.case}>
 		<div className={
