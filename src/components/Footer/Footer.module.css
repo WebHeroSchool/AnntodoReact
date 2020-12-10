@@ -4,8 +4,10 @@
 }
 .filter {
 	margin: 0 0 10px 0;
+	display: flex;
+	justify-content: flex-end;
 }
 .delete {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
 }
