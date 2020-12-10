@@ -5,7 +5,7 @@ import DeleteIcon from '@material-ui/icons/Delete';
 import classnames from 'classnames';
 import styles from './Item.module.css';
 
-const Item = ({ value, isDone, onClickDone, id }) => (
+const Item = ({ value, isDone, onClickDone, id, onClickDelete }) => (
 <div className={styles.wrap}>
 
 	<div>
@@ -24,9 +24,10 @@ const Item = ({ value, isDone, onClickDone, id }) => (
 			{value}
 		</div>
 	</div>
-	<div>
+	<div className={styles.delete_icon}>
 		<IconButton aria-label="delete">
-  	    <DeleteIcon />
+  	    	<DeleteIcon 
+  	    		onClick={() => onClickDelete(id)} />
   	    </IconButton>
 	</div>
 
