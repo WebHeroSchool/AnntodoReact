@@ -8,6 +8,7 @@ const styleField = {
 	width: '100%',
 	margin: '0 0 5px 0',
 };
+
 const styleButton = {
 	fontFamily: "'Balsamiq Sans', cursive",
 	fontSize: '10px',
