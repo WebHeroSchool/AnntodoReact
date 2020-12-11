@@ -41,7 +41,6 @@ class InputItem extends React.Component {
 		} else {
 			errorForm = ''
 		}
-
 		return (
 			<div>
 				<div className={styles.wrap}>
