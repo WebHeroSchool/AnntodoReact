@@ -1,4 +1,4 @@
-import React from 'react';пше 
+import React from 'react';
 import ItemList from '../ItemList/ItemList';
 import InputItem from '../InputItem/InputItem';
 import Footer from '../Footer/Footer';
@@ -62,6 +62,7 @@ class App extends React.Component {
 			}));
 		}
 	}
+
 	render() {
 		return (
 			<div className={styles.wrap}>
@@ -76,5 +77,4 @@ class App extends React.Component {
 			</div>);
 	}
 }
-
 export default App;
